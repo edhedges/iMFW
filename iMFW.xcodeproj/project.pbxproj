@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6498CE0C153E1C92007B74D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6498CE0B153E1C92007B74D0 /* UIKit.framework */; };
+		6498CE0E153E1C92007B74D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6498CE0D153E1C92007B74D0 /* Foundation.framework */; };
+		6498CE10153E1C92007B74D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6498CE0F153E1C92007B74D0 /* CoreGraphics.framework */; };
+		6498CE16153E1C92007B74D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6498CE14153E1C92007B74D0 /* InfoPlist.strings */; };
+		6498CE19153E1C92007B74D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6498CE18153E1C92007B74D0 /* main.m */; };
+		6498CE1C153E1C92007B74D0 /* iMFWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6498CE1B153E1C92007B74D0 /* iMFWAppDelegate.m */; };
+		6498CE1F153E1C92007B74D0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6498CE1D153E1C92007B74D0 /* MainWindow.xib */; };
+		6498CE22153E1C92007B74D0 /* iMFWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6498CE21153E1C92007B74D0 /* iMFWViewController.m */; };
+		6498CE25153E1C92007B74D0 /* iMFWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6498CE23153E1C92007B74D0 /* iMFWViewController.xib */; };
+		6498CE2C153E1C92007B74D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6498CE0B153E1C92007B74D0 /* UIKit.framework */; };
+		6498CE2D153E1C92007B74D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6498CE0D153E1C92007B74D0 /* Foundation.framework */; };
+		6498CE2E153E1C92007B74D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6498CE0F153E1C92007B74D0 /* CoreGraphics.framework */; };
+		6498CE36153E1C92007B74D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6498CE34153E1C92007B74D0 /* InfoPlist.strings */; };
+		6498CE39153E1C92007B74D0 /* iMFWTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 6498CE38153E1C92007B74D0 /* iMFWTests.h */; };
+		6498CE3B153E1C92007B74D0 /* iMFWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6498CE3A153E1C92007B74D0 /* iMFWTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6498CE2F153E1C92007B74D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6498CDFE153E1C91007B74D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6498CE06153E1C91007B74D0;
+			remoteInfo = iMFW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6498CE07153E1C92007B74D0 /* iMFW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMFW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6498CE0B153E1C92007B74D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6498CE0D153E1C92007B74D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6498CE0F153E1C92007B74D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6498CE13153E1C92007B74D0 /* iMFW-Info.plist */ = {isa = PBXFileReference; path = "iMFW-Info.plist"; sourceTree = "<group>"; };
+		6498CE15153E1C92007B74D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6498CE17153E1C92007B74D0 /* iMFW-Prefix.pch */ = {isa = PBXFileReference; path = "iMFW-Prefix.pch"; sourceTree = "<group>"; };
+		6498CE18153E1C92007B74D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6498CE1A153E1C92007B74D0 /* iMFWAppDelegate.h */ = {isa = PBXFileReference; path = iMFWAppDelegate.h; sourceTree = "<group>"; };
+		6498CE1B153E1C92007B74D0 /* iMFWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMFWAppDelegate.m; sourceTree = "<group>"; };
+		6498CE1E153E1C92007B74D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6498CE20153E1C92007B74D0 /* iMFWViewController.h */ = {isa = PBXFileReference; path = iMFWViewController.h; sourceTree = "<group>"; };
+		6498CE21153E1C92007B74D0 /* iMFWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMFWViewController.m; sourceTree = "<group>"; };
+		6498CE24153E1C92007B74D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iMFWViewController.xib; sourceTree = "<group>"; };
+		6498CE2B153E1C92007B74D0 /* iMFWTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMFWTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6498CE33153E1C92007B74D0 /* iMFWTests-Info.plist */ = {isa = PBXFileReference; path = "iMFWTests-Info.plist"; sourceTree = "<group>"; };
+		6498CE35153E1C92007B74D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6498CE37153E1C92007B74D0 /* iMFWTests-Prefix.pch */ = {isa = PBXFileReference; path = "iMFWTests-Prefix.pch"; sourceTree = "<group>"; };
+		6498CE38153E1C92007B74D0 /* iMFWTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMFWTests.h; sourceTree = "<group>"; };
+		6498CE3A153E1C92007B74D0 /* iMFWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMFWTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6498CE04153E1C91007B74D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6498CE0C153E1C92007B74D0 /* UIKit.framework in Frameworks */,
+				6498CE0E153E1C92007B74D0 /* Foundation.framework in Frameworks */,
+				6498CE10153E1C92007B74D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6498CE27153E1C92007B74D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6498CE2C153E1C92007B74D0 /* UIKit.framework in Frameworks */,
+				6498CE2D153E1C92007B74D0 /* Foundation.framework in Frameworks */,
+				6498CE2E153E1C92007B74D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6498CDFC153E1C91007B74D0 = {
+			isa = PBXGroup;
+			children = (
+				6498CE11153E1C92007B74D0 /* iMFW */,
+				6498CE31153E1C92007B74D0 /* iMFWTests */,
+				6498CE0A153E1C92007B74D0 /* Frameworks */,
+				6498CE08153E1C92007B74D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6498CE08153E1C92007B74D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6498CE07153E1C92007B74D0 /* iMFW.app */,
+				6498CE2B153E1C92007B74D0 /* iMFWTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6498CE0A153E1C92007B74D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6498CE0B153E1C92007B74D0 /* UIKit.framework */,
+				6498CE0D153E1C92007B74D0 /* Foundation.framework */,
+				6498CE0F153E1C92007B74D0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6498CE11153E1C92007B74D0 /* iMFW */ = {
+			isa = PBXGroup;
+			children = (
+				6498CE1A153E1C92007B74D0 /* iMFWAppDelegate.h */,
+				6498CE1B153E1C92007B74D0 /* iMFWAppDelegate.m */,
+				6498CE1D153E1C92007B74D0 /* MainWindow.xib */,
+				6498CE20153E1C92007B74D0 /* iMFWViewController.h */,
+				6498CE21153E1C92007B74D0 /* iMFWViewController.m */,
+				6498CE23153E1C92007B74D0 /* iMFWViewController.xib */,
+				6498CE12153E1C92007B74D0 /* Supporting Files */,
+			);
+			path = iMFW;
+			sourceTree = "<group>";
+		};
+		6498CE12153E1C92007B74D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6498CE13153E1C92007B74D0 /* iMFW-Info.plist */,
+				6498CE14153E1C92007B74D0 /* InfoPlist.strings */,
+				6498CE17153E1C92007B74D0 /* iMFW-Prefix.pch */,
+				6498CE18153E1C92007B74D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6498CE31153E1C92007B74D0 /* iMFWTests */ = {
+			isa = PBXGroup;
+			children = (
+				6498CE38153E1C92007B74D0 /* iMFWTests.h */,
+				6498CE3A153E1C92007B74D0 /* iMFWTests.m */,
+				6498CE32153E1C92007B74D0 /* Supporting Files */,
+			);
+			path = iMFWTests;
+			sourceTree = "<group>";
+		};
+		6498CE32153E1C92007B74D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6498CE33153E1C92007B74D0 /* iMFWTests-Info.plist */,
+				6498CE34153E1C92007B74D0 /* InfoPlist.strings */,
+				6498CE37153E1C92007B74D0 /* iMFWTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6498CE06153E1C91007B74D0 /* iMFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6498CE3E153E1C92007B74D0 /* Build configuration list for PBXNativeTarget "iMFW" */;
+			buildPhases = (
+				6498CE03153E1C91007B74D0 /* Sources */,
+				6498CE04153E1C91007B74D0 /* Frameworks */,
+				6498CE05153E1C91007B74D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMFW;
+			productName = iMFW;
+			productReference = 6498CE07153E1C92007B74D0 /* iMFW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6498CE2A153E1C92007B74D0 /* iMFWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6498CE41153E1C92007B74D0 /* Build configuration list for PBXNativeTarget "iMFWTests" */;
+			buildPhases = (
+				6498CE26153E1C92007B74D0 /* Sources */,
+				6498CE27153E1C92007B74D0 /* Frameworks */,
+				6498CE28153E1C92007B74D0 /* Resources */,
+				6498CE29153E1C92007B74D0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6498CE30153E1C92007B74D0 /* PBXTargetDependency */,
+			);
+			name = iMFWTests;
+			productName = iMFWTests;
+			productReference = 6498CE2B153E1C92007B74D0 /* iMFWTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6498CDFE153E1C91007B74D0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6498CE01153E1C91007B74D0 /* Build configuration list for PBXProject "iMFW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6498CDFC153E1C91007B74D0;
+			productRefGroup = 6498CE08153E1C92007B74D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6498CE06153E1C91007B74D0 /* iMFW */,
+				6498CE2A153E1C92007B74D0 /* iMFWTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6498CE05153E1C91007B74D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6498CE16153E1C92007B74D0 /* InfoPlist.strings in Resources */,
+				6498CE1F153E1C92007B74D0 /* MainWindow.xib in Resources */,
+				6498CE25153E1C92007B74D0 /* iMFWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6498CE28153E1C92007B74D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6498CE36153E1C92007B74D0 /* InfoPlist.strings in Resources */,
+				6498CE39153E1C92007B74D0 /* iMFWTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6498CE29153E1C92007B74D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6498CE03153E1C91007B74D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6498CE19153E1C92007B74D0 /* main.m in Sources */,
+				6498CE1C153E1C92007B74D0 /* iMFWAppDelegate.m in Sources */,
+				6498CE22153E1C92007B74D0 /* iMFWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6498CE26153E1C92007B74D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6498CE3B153E1C92007B74D0 /* iMFWTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6498CE30153E1C92007B74D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6498CE06153E1C91007B74D0 /* iMFW */;
+			targetProxy = 6498CE2F153E1C92007B74D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6498CE14153E1C92007B74D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6498CE15153E1C92007B74D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6498CE1D153E1C92007B74D0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6498CE1E153E1C92007B74D0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6498CE23153E1C92007B74D0 /* iMFWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6498CE24153E1C92007B74D0 /* en */,
+			);
+			name = iMFWViewController.xib;
+			sourceTree = "<group>";
+		};
+		6498CE34153E1C92007B74D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6498CE35153E1C92007B74D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6498CE3C153E1C92007B74D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6498CE3D153E1C92007B74D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6498CE3F153E1C92007B74D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMFW/iMFW-Prefix.pch";
+				INFOPLIST_FILE = "iMFW/iMFW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6498CE40153E1C92007B74D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMFW/iMFW-Prefix.pch";
+				INFOPLIST_FILE = "iMFW/iMFW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6498CE42153E1C92007B74D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMFW.app/iMFW";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMFWTests/iMFWTests-Prefix.pch";
+				INFOPLIST_FILE = "iMFWTests/iMFWTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6498CE43153E1C92007B74D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMFW.app/iMFW";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMFWTests/iMFWTests-Prefix.pch";
+				INFOPLIST_FILE = "iMFWTests/iMFWTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6498CE01153E1C91007B74D0 /* Build configuration list for PBXProject "iMFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6498CE3C153E1C92007B74D0 /* Debug */,
+				6498CE3D153E1C92007B74D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6498CE3E153E1C92007B74D0 /* Build configuration list for PBXNativeTarget "iMFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6498CE3F153E1C92007B74D0 /* Debug */,
+				6498CE40153E1C92007B74D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6498CE41153E1C92007B74D0 /* Build configuration list for PBXNativeTarget "iMFWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6498CE42153E1C92007B74D0 /* Debug */,
+				6498CE43153E1C92007B74D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6498CDFE153E1C91007B74D0 /* Project object */;
+}
