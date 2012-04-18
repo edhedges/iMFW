@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iMFWViewController : UIViewController {
+@interface iMFWViewController : UIViewController <UIActionSheetDelegate> {
+    /* Scroll view variable declaration */
     IBOutlet UIScrollView *scroller;
 }
+
+/* Declaration of function for Action Sheet */
+-(IBAction)showActionSheet:(id)sender;
 
 @end

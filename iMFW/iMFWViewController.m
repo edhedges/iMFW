@@ -10,6 +10,13 @@
 
 @implementation iMFWViewController
 
+/* Function to make ActionSheet with Message, Mail, and Cancel Buttons*/
+-(IBAction)showActionSheet:(id)sender{
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Message Face", @"Mail Face", nil];
+    [actionSheet showInView:self.view];
+    [actionSheet release];
+}
+
 - (void)dealloc
 {
     [super dealloc];
@@ -29,6 +36,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    /* Scroll settings enabling scrolling and setting the pixels */
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 960)];
     [super viewDidLoad];
