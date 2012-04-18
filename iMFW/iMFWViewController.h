@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface iMFWViewController : UIViewController {
-    
+    IBOutlet UIScrollView *scroller;
 }
 
 @end

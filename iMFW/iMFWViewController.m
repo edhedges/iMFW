@@ -25,13 +25,15 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    [scroller setScrollEnabled:YES];
+    [scroller setContentSize:CGSizeMake(320, 960)];
     [super viewDidLoad];
 }
-*/
+
 
 - (void)viewDidUnload
 {
