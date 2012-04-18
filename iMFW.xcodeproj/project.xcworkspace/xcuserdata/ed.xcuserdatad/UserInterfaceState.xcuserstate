@@ -5269,7 +5269,7 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>356486013.75554299</real>
+		<real>356486022.90839499</real>
 		<string>{40, 1149}</string>
 		<string>{664, 0}</string>
 		<string>-didReceiveMemoryWarning</string>
@@ -9387,7 +9387,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>356486013.75471598</real>
+		<real>356486022.90702802</real>
 		<string>{40, 1149}</string>
 		<string>{664, 0}</string>
 		<dict>
